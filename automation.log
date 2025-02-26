@@ -1,0 +1,136 @@
+2025-02-26 06:19:42,400 - <module> - INFO - Application is up and running
+2025-02-26 06:19:42,413 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:42,414 - <module> - INFO - Captured Results
+2025-02-26 06:19:42,449 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:19:42,783 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:19:42,799 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:19:42,867 - SeleniumDriver - INFO - TypedRaj2898@#on element using this locator//input[@id='password1']
+2025-02-26 06:19:42,880 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:19:42,951 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:19:45,439 - SeleniumDriver - INFO - Element Found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:19:45,498 - SeleniumDriver - INFO - Element Found Usingxpathwith value//img[@alt='menu']
+2025-02-26 06:19:45,606 - SeleniumDriver - INFO - Clicked on element using this locator//img[@alt='menu']
+2025-02-26 06:19:45,622 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign out']
+2025-02-26 06:19:45,891 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign out']
+2025-02-26 06:19:45,894 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:45,895 - <module> - INFO - Captured Results
+2025-02-26 06:19:45,900 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:45,901 - <module> - INFO - Captured Results
+2025-02-26 06:19:45,918 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:45,918 - <module> - INFO - Captured Results
+2025-02-26 06:19:46,117 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:19:46,218 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:19:46,229 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:19:46,316 - SeleniumDriver - INFO - TypedRaj2898@@on element using this locator//input[@id='password1']
+2025-02-26 06:19:46,342 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:19:46,436 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:19:56,496 - SeleniumDriver - WARNING - Element Not found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:19:56,499 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:56,529 - <module> - INFO - Captured Results
+2025-02-26 06:19:56,529 - <module> - INFO - Test Failed Attaching Screenshot to report
+2025-02-26 06:19:56,842 - <module> - INFO - /Users/rajeshpadhy/Framework_Python_pytest_selenium/screenshots/Automation_2025-02-26-06-19-56.pg
+2025-02-26 06:19:57,015 - <module> - INFO - Closing the browser
+2025-02-26 06:19:57,017 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:19:57,018 - <module> - INFO - Captured Results
+2025-02-26 06:24:15,120 - <module> - INFO - Application is up and running
+2025-02-26 06:24:15,124 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:15,125 - <module> - INFO - Captured Results
+2025-02-26 06:24:15,154 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:24:15,387 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:24:15,403 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:24:15,486 - SeleniumDriver - INFO - TypedRaj2898@#on element using this locator//input[@id='password1']
+2025-02-26 06:24:15,501 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:24:15,580 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:24:19,344 - SeleniumDriver - INFO - Element Found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:24:19,362 - SeleniumDriver - INFO - Element Found Usingxpathwith value//img[@alt='menu']
+2025-02-26 06:24:19,394 - SeleniumDriver - INFO - Clicked on element using this locator//img[@alt='menu']
+2025-02-26 06:24:19,401 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign out']
+2025-02-26 06:24:19,674 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign out']
+2025-02-26 06:24:19,674 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:19,675 - <module> - INFO - Captured Results
+2025-02-26 06:24:19,678 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:19,678 - <module> - INFO - Captured Results
+2025-02-26 06:24:19,680 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:19,680 - <module> - INFO - Captured Results
+2025-02-26 06:24:19,914 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:24:19,956 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:24:19,964 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:24:20,023 - SeleniumDriver - INFO - TypedRaj2898@@on element using this locator//input[@id='password1']
+2025-02-26 06:24:20,030 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:24:20,077 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:24:30,089 - SeleniumDriver - WARNING - Element Not found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:24:30,092 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:30,122 - <module> - INFO - Captured Results
+2025-02-26 06:24:30,122 - <module> - INFO - Test Failed Attaching Screenshot to report
+2025-02-26 06:24:30,470 - <module> - INFO - /Users/rajeshpadhy/Framework_Python_pytest_selenium/screenshots/Automation_2025-02-26-06-24-30.png
+2025-02-26 06:24:30,597 - <module> - INFO - Closing the browser
+2025-02-26 06:24:30,599 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:24:30,600 - <module> - INFO - Captured Results
+2025-02-26 06:33:30,665 - <module> - INFO - Application is up and running
+2025-02-26 06:33:30,674 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:30,674 - <module> - INFO - Captured Results
+2025-02-26 06:33:30,698 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:33:30,935 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:33:30,948 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:33:31,016 - SeleniumDriver - INFO - TypedRaj2898@#on element using this locator//input[@id='password1']
+2025-02-26 06:33:31,034 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:33:31,104 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:33:33,728 - SeleniumDriver - INFO - Element Found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:33:33,749 - SeleniumDriver - INFO - Element Found Usingxpathwith value//img[@alt='menu']
+2025-02-26 06:33:33,786 - SeleniumDriver - INFO - Clicked on element using this locator//img[@alt='menu']
+2025-02-26 06:33:33,795 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign out']
+2025-02-26 06:33:34,067 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign out']
+2025-02-26 06:33:34,068 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:34,068 - <module> - INFO - Captured Results
+2025-02-26 06:33:34,072 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:34,073 - <module> - INFO - Captured Results
+2025-02-26 06:33:34,075 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:34,075 - <module> - INFO - Captured Results
+2025-02-26 06:33:34,251 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:33:34,292 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:33:34,297 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:33:34,331 - SeleniumDriver - INFO - TypedRaj2898@@on element using this locator//input[@id='password1']
+2025-02-26 06:33:34,338 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:33:34,372 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:33:44,425 - SeleniumDriver - WARNING - Element Not found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:33:44,428 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:44,480 - <module> - INFO - Captured Results
+2025-02-26 06:33:44,481 - <module> - INFO - Test Failed Attaching Screenshot to report
+2025-02-26 06:33:44,876 - <module> - INFO - /Users/rajeshpadhy/Framework_Python_pytest_selenium/screenshots/Automation_2025-02-26-06-33-44.png
+2025-02-26 06:33:45,011 - <module> - INFO - Closing the browser
+2025-02-26 06:33:45,014 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:33:45,015 - <module> - INFO - Captured Results
+2025-02-26 06:38:48,791 - <module> - INFO - Application is up and running
+2025-02-26 06:38:48,800 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:38:48,801 - <module> - INFO - Captured Results
+2025-02-26 06:38:48,829 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:38:49,085 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:38:49,103 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:38:49,184 - SeleniumDriver - INFO - TypedRaj2898@#on element using this locator//input[@id='password1']
+2025-02-26 06:38:49,201 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:38:49,302 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:38:51,873 - SeleniumDriver - INFO - Element Found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:38:51,897 - SeleniumDriver - INFO - Element Found Usingxpathwith value//img[@alt='menu']
+2025-02-26 06:38:51,939 - SeleniumDriver - INFO - Clicked on element using this locator//img[@alt='menu']
+2025-02-26 06:38:51,948 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign out']
+2025-02-26 06:38:52,165 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign out']
+2025-02-26 06:38:52,166 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:38:52,166 - <module> - INFO - Captured Results
+2025-02-26 06:38:52,170 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:38:52,171 - <module> - INFO - Captured Results
+2025-02-26 06:38:52,173 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:38:52,173 - <module> - INFO - Captured Results
+2025-02-26 06:38:52,354 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='email1']
+2025-02-26 06:38:52,395 - SeleniumDriver - INFO - Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+2025-02-26 06:38:52,401 - SeleniumDriver - INFO - Element Found Usingxpathwith value//input[@id='password1']
+2025-02-26 06:38:52,436 - SeleniumDriver - INFO - TypedRaj2898@@on element using this locator//input[@id='password1']
+2025-02-26 06:38:52,443 - SeleniumDriver - INFO - Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+2025-02-26 06:38:52,490 - SeleniumDriver - INFO - Clicked on element using this locator//button[normalize-space()='Sign in']
+2025-02-26 06:39:02,503 - SeleniumDriver - WARNING - Element Not found Usingxpathwith value//h4[@class='welcomeMessage']
+2025-02-26 06:39:02,506 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:39:02,534 - <module> - INFO - Captured Results
+2025-02-26 06:39:02,534 - <module> - INFO - Test Failed Attaching Screenshot to report
+2025-02-26 06:39:02,835 - <module> - INFO - /Users/rajeshpadhy/Framework_Python_pytest_selenium/screenshots/Automation_2025-02-26-06-39-02.png
+2025-02-26 06:39:03,014 - <module> - INFO - Closing the browser
+2025-02-26 06:39:03,023 - <module> - INFO - Executing PyTest Hooks
+2025-02-26 06:39:03,025 - <module> - INFO - Captured Results

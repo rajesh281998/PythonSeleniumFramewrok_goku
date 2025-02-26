@@ -1,0 +1,12 @@
+[32mINFO    [0m <module>:conftest.py:20 Application is up and running
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//input[@id='email1']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:91 Typedrpadhy9888@gmail.comon element using this locator//input[@id='email1']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//input[@id='password1']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:91 TypedRaj2898@#on element using this locator//input[@id='password1']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//button[normalize-space()='Sign in']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:82 Clicked on element using this locator//button[normalize-space()='Sign in']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//h4[@class='welcomeMessage']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//img[@alt='menu']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:82 Clicked on element using this locator//img[@alt='menu']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:73 Element Found Usingxpathwith value//button[normalize-space()='Sign out']
+[32mINFO    [0m SeleniumDriver:selenium_driver.py:82 Clicked on element using this locator//button[normalize-space()='Sign out']
