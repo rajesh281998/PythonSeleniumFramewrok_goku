@@ -10,6 +10,7 @@ class HomePage(SeleniumDriver):
     signout_button_xpath = "//button[normalize-space()='Sign out']"
 
     def __init__(self,driver):
+        super().__init__(driver)
         self.driver = driver
 
     def get_welcome_text(self):
