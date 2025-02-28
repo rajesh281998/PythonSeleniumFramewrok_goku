@@ -15,6 +15,12 @@ class HomePage(SeleniumDriver):
     def get_welcome_text(self):
         return self.get_element(self.welcome_message_xpath,"xpath").text
 
+    def get_welcome_text_new(self):
+        return self.get_element(self.welcome_message_xpath,"xpath").text
+
+    def get_welcome_text_new2(self):
+        return self.get_element(self.welcome_message_xpath,"xpath").text
+
     def logout_from_application(self):
         self.click_element(self.side_menu_xpath,"xpath")
         self.click_element(self.signout_button_xpath,"xpath")
