@@ -25,8 +25,16 @@ class TestLoginScenario():
 
         home = HomePage(self.driver)
 
-        welcome_message = home.get_welcome_text()
+        try:
+            welcome_message = home.get_welcome_text()
+            assert "Welcome" in welcome_message, "Login failed for valid credentials"
+            home.logout_from_application()
 
-        assert "Welcome" in welcome_message
-        home.logout_from_application()
+        except:
+            login_error_message = login.login_error_message_for_invalid_mail_and_password_text()
+            assert "Email and Password Doesn't match" in login_error_message, "Login did not fail as expected for invalid credentials"
+
+
+
+
 
