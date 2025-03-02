@@ -12,7 +12,7 @@ class LoginPage(SeleniumDriver):
 
     def __init__(self,driver):
         super().__init__(driver)
-        self.driver =driver
+
 
     def login_to_application(self,email,password):
         self.type_element(email,self.email_field_XPATH,"xpath")

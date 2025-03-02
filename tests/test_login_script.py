@@ -30,9 +30,22 @@ class TestLoginScenario():
             assert "Welcome" in welcome_message, "Login failed for valid credentials"
             home.logout_from_application()
 
-        except:
-            login_error_message = login.login_error_message_for_invalid_mail_and_password_text()
-            assert "Email and Password Doesn't match" in login_error_message, "Login did not fail as expected for invalid credentials"
+        except Exception:
+            # If login fails, check the error message
+            try:
+                error_message = login.login_error_message_for_invalid_mail_and_password_text()
+
+                # Handle different failure scenarios
+                if not email and password:
+                    assert "Email is required" in error_message, "Missing email error not displayed"
+                elif email and not password:
+                    assert "Password is required" in error_message, "Missing password error not displayed"
+                elif email and password:
+                    assert "Email and Password Doesn't match" in error_message, "Invalid login error not displayed"
+                else:
+                    assert "Email and Password are required" in error_message, "Generic missing credentials error not displayed"
+            except Exception:
+                assert False, "Neither welcome message nor error message found - Possible UI issue"
 
 
 

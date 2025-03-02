@@ -11,7 +11,7 @@ class HomePage(SeleniumDriver):
 
     def __init__(self,driver):
         super().__init__(driver)
-        self.driver = driver
+
 
     def get_welcome_text(self):
         return self.get_element(self.welcome_message_xpath,"xpath").text

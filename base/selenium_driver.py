@@ -26,9 +26,7 @@ class SeleniumDriver():
         try:
             screenshot_dir=os.path.join(os.getcwd(), "screenshots")
 
-            timestamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-
-            file_name = f"Automation_{timestamp}.png"
+            file_name = f"Automation_{datetime.now().strftime("%Y-%m-%d-%H-%M-%S")}.png"
 
             filepath = os.path.join(screenshot_dir,file_name)
 
