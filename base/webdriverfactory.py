@@ -13,7 +13,7 @@ class WebDriverFactory():
         self.browser=config.get_browser()
         self.baseurl=config.get_app_url()
         self.timeout= config.get_timeout()
-        self.cloud = config.get_value("app", "cloud").lower() == "True"  # Convert to boolean
+        self.cloud = config.get_value("app", "cloud").lower() == "False"  # Convert to boolean
         self.hub_url = config.get_value("grid", "hub_url")  # Get Selenium Grid URL
 
 
