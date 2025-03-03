@@ -4,25 +4,31 @@ import allure
 import pytest
 
 from base.selenium_driver import SeleniumDriver
+from base.driver_manager import DriverManager
 from base.webdriverfactory import WebDriverFactory
 
 import utilities.custom_logger as cl
 
 log = cl.customlogger(logging.DEBUG)
-@pytest.fixture(scope="class")
-def setup(request):
-    wdf = WebDriverFactory("chrome")
-    driver = wdf.getWebDriverInstance()
-
-    if request.cls is not None:
-        request.cls.driver = driver
-
-    log.info("Application is up and running")
-
+@pytest.fixture(scope="session",autouse=True)
+def setup():
+    driver = DriverManager.get_driver()
     yield driver
 
-    driver.quit()
-    log.info("Closing the browser")
+    DriverManager.quit_driver()
+# def setup(request):
+#     wdf = WebDriverFactory("chrome")
+#     driver = wdf.getWebDriverInstance()
+#
+#     if request.cls is not None:
+#         request.cls.driver = driver
+#
+#     log.info("Application is up and running")
+#
+#     yield driver
+#
+#     driver.quit()
+#     log.info("Closing the browser")
 
 
 @pytest.hookimpl(tryfirst=True,hookwrapper=True)

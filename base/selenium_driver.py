@@ -2,6 +2,7 @@ import logging
 import os.path
 from datetime import datetime
 from traceback import print_stack
+from driver_manager import DriverManager
 
 from selenium.common import NoSuchElementException, StaleElementReferenceException, ElementNotInteractableException, \
     ElementNotVisibleException
@@ -12,12 +13,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 import utilities.custom_logger as cl
 
 
-class SeleniumDriver():
+class SeleniumDriver:
 
     log = cl.customlogger(logging.DEBUG)
 
-    def __init__(self,driver):
-        self.driver = driver
+    def __init__(self):
+        self.driver = DriverManager.get_driver()
 
 
         #screenshot,clickelement,typeElement,mouseHover,scrolls,dragDrop,WaitsCondition

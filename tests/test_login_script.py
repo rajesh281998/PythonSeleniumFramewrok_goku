@@ -19,11 +19,11 @@ class TestLoginScenario():
     @pytest.mark.parametrize("email,password",ExcelUtils.get_excel_data(file_path,"Sheet1"))
     def test_login(self,email,password):
 
-        login=LoginPage(self.driver)
+        login=LoginPage()
 
         login.login_to_application(email,password)
 
-        home = HomePage(self.driver)
+        home = HomePage()
 
         try:
             welcome_message = home.get_welcome_text()
